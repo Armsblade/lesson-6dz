@@ -1,0 +1,133 @@
+@font-face {
+  font-family: "Gilroy-SemiBoldItalic";
+  font-style: normal;
+  font-weight: 400;
+  /* Браузер сначала попробует найти шрифт локально */
+  src: local("Gilroy-SemiBoldItalic"),
+       /* Если не получилось, загрузит woff2 */
+       url("/Gilroy-SemiBoldItalic.woff2") format("woff2"),
+       /* Если браузер не поддерживает woff2, загрузит woff */
+       url("Gilroy-SemiBoldItalic.eot.woff") format("woff");
+}
+
+body {
+    font-family: "Gilroy", sans-serif;
+    margin: 0;
+}
+
+.H2 {
+    font-size: 40px;
+    line-height: 120%;
+    text-align: center;
+}
+
+h1, h2, h5, h6, p {
+    margin: 0;
+}
+
+h5 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 120%;
+}
+
+h6 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.container2 {
+    width: 1237px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    
+}
+
+.box {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 30px;
+    margin-right: 20px;
+    min-height: 460px;
+
+}
+
+.paragraf-grey1 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #898989;
+    
+}
+
+.content {
+   background-color: #F4F5F7;
+   margin-top: -4px;
+   margin-right: -4px;
+   padding: 16px;
+   min-height: 145px;
+   box-sizing: border-box;
+   
+}
+
+.paragraf-grey { 
+    display: inline-block;
+    margin-left: -4px;
+    box-sizing: border-box;
+    color: #898989;
+    text-decoration-line: line-through;
+    
+}
+
+.button-box {
+    width: 245px;
+    background-color: #ffff;
+     border: 1px solid #E89F71;
+     margin-top: 30px;
+     margin-left: 500px;
+     padding: 12px, 84px;
+    
+    
+}
+
+.p-button {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    color: #E89F71;
+}
+
+/* end section */
+
+.section1 {
+    width: 1237px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.container1 {
+    display: inline-block;
+    
+    width: 247px;
+    margin-right: 58px;
+    box-sizing: border-box;
+    
+    
+    
+}
+
+.img-section1{
+   
+}
+
+.content-box {
+    display: inline-block;
+    box-sizing: border-box;
+    
+    padding-left: 24px;
+    padding-bottom: 24px;
+   
+    
+}
+
